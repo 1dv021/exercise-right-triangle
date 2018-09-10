@@ -1,9 +1,13 @@
 # Rätvinklig triangel
 
 - A-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/ratvinklig-triangel/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/a-niva/ratvinklig-triangel)
+- [Lösningsförslag]( https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/right-triangle)
+
 
 > __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `shape.js` och komplettera funktionen `shape.createRightTriangle(base)`, som endast får använda följande strängar, en gång vardera,
 
@@ -14,15 +18,18 @@ för att skapa en rätvinklig triangel i form av en enda sträng som funktionen 
 
 Anropet `console.log(shape.createRightTriangle(5))` ska ge triangeln
 
-<pre>#
+```
+#
 ##
 ###
 ####
-#####</pre>
+#####
+```
 
 Anropet `console.log(shape.createRightTriangle(10))` ska ge triangeln
 
-<pre>#
+```
+#
 ##
 ###
 ####
@@ -31,7 +38,8 @@ Anropet `console.log(shape.createRightTriangle(10))` ska ge triangeln
 #######
 ########
 #########
-##########</pre>
+##########
+```
 
 ## Tips
 
@@ -43,7 +51,3 @@ Funktioner, metoder, etc. som _kan_ komma till användning beroende hur du välj
 - [string.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 - [+=, tilldelningsoperator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)
 - [<=, operatorn mindre än eller lika med](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
-
-## Lösningsförslag
-
-- https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/right-triangle
