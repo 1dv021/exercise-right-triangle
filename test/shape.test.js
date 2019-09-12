@@ -8,7 +8,7 @@
 'use strict'
 
 const shape = require('../src/shape')
-const expect = require('chai').expect
+const { expect } = require('chai')
 
 describe('shape.createRightTriangle', function () {
   it('createRightTriangle(3); should return "#\\n##\\n###\\n"', done => {
